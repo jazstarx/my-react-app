@@ -1,0 +1,17 @@
+img{
+    border-radius: 50%;
+    border: 10px solid;
+    padding: 10px;
+    margin: 20px;
+    height: 150px;
+    width: 150px;
+  }
+  
+  .card{
+    display: flex;
+    border-radius: 20px;
+    background-color: #7772fa1a;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    margin: 15px;
+  }
