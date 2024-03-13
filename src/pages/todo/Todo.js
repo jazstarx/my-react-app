@@ -5,12 +5,17 @@ function Todo() {
   const [tasks, setTasks] = useState([
     {
       id: 1,
-      text: "Doctor Appointment",
+      text: "Morning SCRUM",
       completed: true,
     },
     {
       id: 2,
-      text: "Meeting at School",
+      text: "React Training",
+      completed: false,
+    },
+    {
+      id: 3,
+      text: "Evening SCRUM",
       completed: false,
     },
   ]);
