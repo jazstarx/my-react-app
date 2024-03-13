@@ -1,13 +1,10 @@
 import React from "react";
 import "./Todo.css";
 function TodoItem({ task, deleteTask, toggleCompleted }) {
-  function handleChange() {
-    toggleCompleted(task.id);
-  }
+
 
   return (
     <div className="todo-item">
-      {/* <input type="checkbox" checked={task.completed} onChange={handleChange} /> */}
       <button onClick={() => deleteTask(task.id)}>
         <svg
           xmlns="http://www.w3.org/2000/svg"

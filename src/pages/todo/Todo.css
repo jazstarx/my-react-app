@@ -4,9 +4,7 @@
 }
 
 .todo-item span {
-    /* color: #888; */
     margin-left: 5px;
-    /* text-decoration: line-through; */
 }
  button{
     border-radius: 20px;
